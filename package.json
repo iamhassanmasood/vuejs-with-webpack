@@ -1,0 +1,56 @@
+{
+  "name": "vuejs-with-webpak",
+  "version": "1.0.0",
+  "description": "vuejs custom setup with webpack",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamhassanmasood/vuejs-with-webpack.git"
+  },
+  "keywords": [
+    "vuejs",
+    "webpack",
+    "babel"
+  ],
+  "author": "Hassan Masood",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamhassanmasood/vuejs-with-webpack/issues"
+  },
+  "homepage": "https://github.com/iamhassanmasood/vuejs-with-webpack#readme",
+  "devDependencies": {
+    "@babel/core": "^7.17.9",
+    "@babel/preset-env": "^7.16.11",
+    "autoprefixer": "^10.4.4",
+    "babel-loader": "^8.2.4",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.7.1",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.6.0",
+    "postcss": "^8.4.12",
+    "postcss-loader": "^6.2.1",
+    "sass": "^1.49.11",
+    "sass-loader": "^12.6.0",
+    "style-loader": "^3.3.1",
+    "vue-loader": "^17.0.0",
+    "vue-template-compiler": "^2.6.14",
+    "webpack": "^5.71.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.8.1"
+  },
+  "dependencies": {
+    "core-js": "^3.21.1",
+    "vue": "^3.2.31",
+    "vue-router": "^4.0.14"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
